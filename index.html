@@ -7,45 +7,61 @@
 
 	<!-- Naše vlastní CSS -->
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
 	<!-- Hlavička -->
-		<img src="images/logo.svg" alt="logo Skvělá cukrárna">
-
-		<ul>
-			<li><a href="#">Nabídka dortů</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">O nás</a></li>
-			<li><a href="#">Kontakt</a></li>
-			<li><a href="#">Online objednávka</a></li>
-		</ul>
-
+	<section class="sekce_menu">
+		<header class="hlavicka">
+			<div class="logo">
+				<img src="images/logo.svg" alt="logo Skvělá cukrárna">
+			</div>
+				<ul class="menu">
+					<li><a class="menu" href="#">Nabídka dortů</a></li>
+					<li><a class="menu" href="#">Blog</a></li>
+					<li><a class="menu" href="#">O nás</a></li>
+					<li><a class="menu" href="#">Kontakt</a></li>
+					<li><a class="menu" href="#">Online objednávka</a></li>
+				</ul>
+		</header>
+	</section>
 
 
 
 	<!-- Hero sekce s obrázkem a hlavním nadpisem -->
-		<h1>Sladké potěšení z&nbsp;kvalitních surovin</h1>
 
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-		</p>
+		<div class="hlavicka2">
+			<h1>Sladké potěšení<br>z&nbsp;kvalitních surovin</h1>
+
+			<div class="hlavicka2_text">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+			</div>
+		</div>
 
 
 
 
 	<!-- sekce Vítejte v naší cukrárně -->
-		<!-- levý sloupec -->
-			<h2>Vítejte v naší cukrárně</h2>
+	<section class="sekce1">
+		<div class="vitejte">
+			<!-- levý sloupec -->
+			<div class="vitejte_text">
+					<h2>Vítejte v naší cukrárně</h2>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia minima reiciendis beatae, quo consequatur blanditiis molestiae laborum, at porro ipsum soluta temporibus.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia minima reiciendis beatae, quo consequatur blanditiis molestiae laborum, at porro ipsum soluta temporibus.</p>
 
-			<a href="#">Naše výrobky</a>
-
-		<!-- pravý sloupec -->
-			<img src="images/cukrarka.jpg" alt="cukrářka">
-
+					<a href="#">Naše výrobky</a>
+			</div>
+			<!-- pravý sloupec -->
+			<div class="vitejte_img">
+				<img src="images/cukrarka.jpg" alt="cukrářka">
+			</div>
+		</div>
+	</section>
 
 
 
@@ -70,6 +86,7 @@
 
 		<!-- produkt 4 -->
 			<img src="images/buchticka.jpg" alt="Buchtička s polevou">
+
 			<h3>Buchtička s polevou</h3>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
