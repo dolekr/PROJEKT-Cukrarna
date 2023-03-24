@@ -46,7 +46,6 @@ body {
 	color:black;
 	width: 1100px;
 	max-width: 1100px;
-
 }
 
 .menu {
@@ -119,7 +118,7 @@ h1 {
 
 .sekce1 {
 	max-width: 100vw;
-	background-color: aquamarine;
+	background-color: white;
 	display: flex;
 	justify-content: center;
 }
@@ -134,12 +133,107 @@ h1 {
 .vitejte_text {
 	display: flex;
 	flex-direction: column;
-	background-color: #f0f0f0;
-	margin-right: 30px;
+	background-color: white;
+	padding-right: 30px;
+	padding-left: 10px;
 }
 
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-size: 36px;
 	color: #3e606b;
+}
+
+.pink-button {
+	background-color: #f195b2;
+	display: flex;
+	max-width: fit-content;
+	padding: 15px 40px;
+	border-radius: 30px;
+	margin-left: 10px;
+}
+
+.pink-button a {
+	text-decoration: none;
+	color: white;
+}
+
+.vitejte_img img {
+	border-radius: 5px;
+}
+
+/* --------------------------- SEKCE 2 - DNEŠNÍ NABÍDKA -------------------------*/
+
+.sekce2_box {
+	background-color: #f0f0f0;
+	padding: 80px 0;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.sekce2 {
+	background-color: #f0f0f0;
+}
+
+.nabidka {
+	display: flex;
+	justify-content: center;
+
+}
+
+.nabidka div {
+	justify-content: space-between;
+	max-width: 250px;
+	background-size: cover;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nabidka img {
+	max-width: 250px;
+}
+
+.produkt2, .produkt3, .produkt1 {
+	margin-right: 30px;
+}
+
+.nabidka p, h3 {
+	text-align: center;
+}
+
+.nabidka p {
+	padding: 0 20px 20px 20px;
+}
+
+/* --------------------------- SEKCE 3 - NÁŠ PŘÍSTUP -------------------------*/
+.sekce3_kontejner {
+	max-width: 1100px;
+	display: flex;
+
+}
+
+.sekce3_pristup {
+	justify-content: center;
+	display: flex;
+	padding: 80px 0;
+}
+
+.sekce3_right {
+	padding-left: 30px;
+}
+
+.sekce3_kontejner img {
+	border-radius: 5px;
+	max-width: 500px;
+}
+
+/* --------------------------- SEKCE 3 - NÁŠ PŘÍSTUP -------------------------*/
+footer {
+	padding: 30px 0;
+	display: flex;
+	justify-content: center;
+	background-color: #303339;
+	color: white;
 }
